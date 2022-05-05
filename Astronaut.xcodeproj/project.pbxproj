@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75397D6B2822D4B0007E021B /* AstronautsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75397D6A2822D4B0007E021B /* AstronautsCardView.swift */; };
+		75397D6D2822E622007E021B /* SwiftActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75397D6C2822E622007E021B /* SwiftActivityIndicator.swift */; };
+		75397D6F2823E7E2007E021B /* AstronautStatusGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75397D6E2823E7E2007E021B /* AstronautStatusGroup.swift */; };
+		75397D712823ED2B007E021B /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75397D702823ED2B007E021B /* URLExtension.swift */; };
+		75397D732824218E007E021B /* GenericRowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75397D722824218E007E021B /* GenericRowViews.swift */; };
+		75397D75282421C3007E021B /* AstronautsCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75397D74282421C3007E021B /* AstronautsCardViewModel.swift */; };
+		75C0D0772820981700CCA040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0762820981700CCA040 /* AppDelegate.swift */; };
+		75C0D0792820981700CCA040 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0782820981700CCA040 /* SceneDelegate.swift */; };
+		75C0D0802820981900CCA040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C0D07F2820981900CCA040 /* Assets.xcassets */; };
+		75C0D0832820981900CCA040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C0D0812820981900CCA040 /* LaunchScreen.storyboard */; };
+		75C0D08E2820981900CCA040 /* AstronautTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D08D2820981900CCA040 /* AstronautTests.swift */; };
+		75C0D0982820981900CCA040 /* AstronautUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0972820981900CCA040 /* AstronautUITests.swift */; };
+		75C0D09A2820981900CCA040 /* AstronautUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0992820981900CCA040 /* AstronautUITestsLaunchTests.swift */; };
+		75C0D0B228209E0500CCA040 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0B128209E0500CCA040 /* HomeCoordinator.swift */; };
+		75C0D0B428209E1000CCA040 /* HomeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0B328209E1000CCA040 /* HomeContainer.swift */; };
+		75C0D0B72820A09A00CCA040 /* HomeRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0B62820A09A00CCA040 /* HomeRootView.swift */; };
+		75C0D0B92820A0A000CCA040 /* HomeRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0B82820A0A000CCA040 /* HomeRootViewModel.swift */; };
+		75C0D0BC2820A0D100CCA040 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0BB2820A0D100CCA040 /* Endpoints.swift */; };
+		75C0D0BF2820A2E000CCA040 /* AstronautDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0BE2820A2E000CCA040 /* AstronautDetailsView.swift */; };
+		75C0D0C12820A2ED00CCA040 /* AstronautDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0C02820A2ED00CCA040 /* AstronautDetailsViewModel.swift */; };
+		75C0D0C42820A3D800CCA040 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0C32820A3D800CCA040 /* ViewExtension.swift */; };
+		75C0D0C82820B2B600CCA040 /* AstronautsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0C72820B2B600CCA040 /* AstronautsProtocol.swift */; };
+		75C0D0CB2821834E00CCA040 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0CA2821834E00CCA040 /* DataModels.swift */; };
+		75C0D0CD2821839900CCA040 /* APISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C0D0CC2821839900CCA040 /* APISession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C0D08A2820981900CCA040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C0D06B2820981700CCA040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C0D0722820981700CCA040;
+			remoteInfo = Astronaut;
+		};
+		75C0D0942820981900CCA040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C0D06B2820981700CCA040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C0D0722820981700CCA040;
+			remoteInfo = Astronaut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75397D6A2822D4B0007E021B /* AstronautsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsCardView.swift; sourceTree = "<group>"; };
+		75397D6C2822E622007E021B /* SwiftActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActivityIndicator.swift; sourceTree = "<group>"; };
+		75397D6E2823E7E2007E021B /* AstronautStatusGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautStatusGroup.swift; sourceTree = "<group>"; };
+		75397D702823ED2B007E021B /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		75397D722824218E007E021B /* GenericRowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRowViews.swift; sourceTree = "<group>"; };
+		75397D74282421C3007E021B /* AstronautsCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsCardViewModel.swift; sourceTree = "<group>"; };
+		75C0D0732820981700CCA040 /* Astronaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astronaut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C0D0762820981700CCA040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75C0D0782820981700CCA040 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75C0D07F2820981900CCA040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C0D0822820981900CCA040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75C0D0842820981900CCA040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C0D0892820981900CCA040 /* AstronautTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronautTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C0D08D2820981900CCA040 /* AstronautTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautTests.swift; sourceTree = "<group>"; };
+		75C0D0932820981900CCA040 /* AstronautUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronautUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C0D0972820981900CCA040 /* AstronautUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautUITests.swift; sourceTree = "<group>"; };
+		75C0D0992820981900CCA040 /* AstronautUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75C0D0B128209E0500CCA040 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		75C0D0B328209E1000CCA040 /* HomeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainer.swift; sourceTree = "<group>"; };
+		75C0D0B62820A09A00CCA040 /* HomeRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRootView.swift; sourceTree = "<group>"; };
+		75C0D0B82820A0A000CCA040 /* HomeRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRootViewModel.swift; sourceTree = "<group>"; };
+		75C0D0BB2820A0D100CCA040 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		75C0D0BE2820A2E000CCA040 /* AstronautDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsView.swift; sourceTree = "<group>"; };
+		75C0D0C02820A2ED00CCA040 /* AstronautDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsViewModel.swift; sourceTree = "<group>"; };
+		75C0D0C32820A3D800CCA040 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		75C0D0C72820B2B600CCA040 /* AstronautsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsProtocol.swift; sourceTree = "<group>"; };
+		75C0D0CA2821834E00CCA040 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		75C0D0CC2821839900CCA040 /* APISession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C0D0702820981700CCA040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C0D0862820981900CCA040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C0D0902820981900CCA040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75397D692822D4A6007E021B /* View components */ = {
+			isa = PBXGroup;
+			children = (
+				75397D6C2822E622007E021B /* SwiftActivityIndicator.swift */,
+				75397D6E2823E7E2007E021B /* AstronautStatusGroup.swift */,
+				75397D722824218E007E021B /* GenericRowViews.swift */,
+			);
+			path = "View components";
+			sourceTree = "<group>";
+		};
+		75397D76282421C8007E021B /* Astronaut card */ = {
+			isa = PBXGroup;
+			children = (
+				75397D6A2822D4B0007E021B /* AstronautsCardView.swift */,
+				75397D74282421C3007E021B /* AstronautsCardViewModel.swift */,
+			);
+			path = "Astronaut card";
+			sourceTree = "<group>";
+		};
+		75397D7728248DDF007E021B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0B028209DFE00CCA040 /* Home coordinator */,
+				75C0D0B52820A08E00CCA040 /* HomeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75C0D06A2820981700CCA040 = {
+			isa = PBXGroup;
+			children = (
+				75C0D0752820981700CCA040 /* Astronaut */,
+				75C0D08C2820981900CCA040 /* AstronautTests */,
+				75C0D0962820981900CCA040 /* AstronautUITests */,
+				75C0D0742820981700CCA040 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C0D0742820981700CCA040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0732820981700CCA040 /* Astronaut.app */,
+				75C0D0892820981900CCA040 /* AstronautTests.xctest */,
+				75C0D0932820981900CCA040 /* AstronautUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C0D0752820981700CCA040 /* Astronaut */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0A6282099A500CCA040 /* Launch */,
+				75C0D0A9282099C300CCA040 /* Main */,
+				75C0D07F2820981900CCA040 /* Assets.xcassets */,
+				75C0D0842820981900CCA040 /* Info.plist */,
+			);
+			path = Astronaut;
+			sourceTree = "<group>";
+		};
+		75C0D08C2820981900CCA040 /* AstronautTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D08D2820981900CCA040 /* AstronautTests.swift */,
+			);
+			path = AstronautTests;
+			sourceTree = "<group>";
+		};
+		75C0D0962820981900CCA040 /* AstronautUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0972820981900CCA040 /* AstronautUITests.swift */,
+				75C0D0992820981900CCA040 /* AstronautUITestsLaunchTests.swift */,
+			);
+			path = AstronautUITests;
+			sourceTree = "<group>";
+		};
+		75C0D0A6282099A500CCA040 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0762820981700CCA040 /* AppDelegate.swift */,
+				75C0D0782820981700CCA040 /* SceneDelegate.swift */,
+				75C0D0812820981900CCA040 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		75C0D0A9282099C300CCA040 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0C22820A3D400CCA040 /* Helpers */,
+				75C0D0BA2820A0CA00CCA040 /* Network */,
+				75397D7728248DDF007E021B /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		75C0D0B028209DFE00CCA040 /* Home coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0B128209E0500CCA040 /* HomeCoordinator.swift */,
+				75C0D0B328209E1000CCA040 /* HomeContainer.swift */,
+			);
+			path = "Home coordinator";
+			sourceTree = "<group>";
+		};
+		75C0D0B52820A08E00CCA040 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0B62820A09A00CCA040 /* HomeRootView.swift */,
+				75C0D0B82820A0A000CCA040 /* HomeRootViewModel.swift */,
+				75397D76282421C8007E021B /* Astronaut card */,
+				75C0D0BD2820A2D500CCA040 /* Astronaut Details View */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		75C0D0BA2820A0CA00CCA040 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0BB2820A0D100CCA040 /* Endpoints.swift */,
+				75C0D0C72820B2B600CCA040 /* AstronautsProtocol.swift */,
+				75C0D0CA2821834E00CCA040 /* DataModels.swift */,
+				75C0D0CC2821839900CCA040 /* APISession.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		75C0D0BD2820A2D500CCA040 /* Astronaut Details View */ = {
+			isa = PBXGroup;
+			children = (
+				75C0D0BE2820A2E000CCA040 /* AstronautDetailsView.swift */,
+				75C0D0C02820A2ED00CCA040 /* AstronautDetailsViewModel.swift */,
+			);
+			path = "Astronaut Details View";
+			sourceTree = "<group>";
+		};
+		75C0D0C22820A3D400CCA040 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				75397D692822D4A6007E021B /* View components */,
+				75C0D0C32820A3D800CCA040 /* ViewExtension.swift */,
+				75397D702823ED2B007E021B /* URLExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C0D0722820981700CCA040 /* Astronaut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C0D09D2820981900CCA040 /* Build configuration list for PBXNativeTarget "Astronaut" */;
+			buildPhases = (
+				75C0D06F2820981700CCA040 /* Sources */,
+				75C0D0702820981700CCA040 /* Frameworks */,
+				75C0D0712820981700CCA040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astronaut;
+			productName = Astronaut;
+			productReference = 75C0D0732820981700CCA040 /* Astronaut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C0D0882820981900CCA040 /* AstronautTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C0D0A02820981900CCA040 /* Build configuration list for PBXNativeTarget "AstronautTests" */;
+			buildPhases = (
+				75C0D0852820981900CCA040 /* Sources */,
+				75C0D0862820981900CCA040 /* Frameworks */,
+				75C0D0872820981900CCA040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C0D08B2820981900CCA040 /* PBXTargetDependency */,
+			);
+			name = AstronautTests;
+			productName = AstronautTests;
+			productReference = 75C0D0892820981900CCA040 /* AstronautTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75C0D0922820981900CCA040 /* AstronautUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C0D0A32820981900CCA040 /* Build configuration list for PBXNativeTarget "AstronautUITests" */;
+			buildPhases = (
+				75C0D08F2820981900CCA040 /* Sources */,
+				75C0D0902820981900CCA040 /* Frameworks */,
+				75C0D0912820981900CCA040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C0D0952820981900CCA040 /* PBXTargetDependency */,
+			);
+			name = AstronautUITests;
+			productName = AstronautUITests;
+			productReference = 75C0D0932820981900CCA040 /* AstronautUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C0D06B2820981700CCA040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					75C0D0722820981700CCA040 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					75C0D0882820981900CCA040 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 75C0D0722820981700CCA040;
+					};
+					75C0D0922820981900CCA040 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 75C0D0722820981700CCA040;
+					};
+				};
+			};
+			buildConfigurationList = 75C0D06E2820981700CCA040 /* Build configuration list for PBXProject "Astronaut" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C0D06A2820981700CCA040;
+			productRefGroup = 75C0D0742820981700CCA040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C0D0722820981700CCA040 /* Astronaut */,
+				75C0D0882820981900CCA040 /* AstronautTests */,
+				75C0D0922820981900CCA040 /* AstronautUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C0D0712820981700CCA040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0D0832820981900CCA040 /* LaunchScreen.storyboard in Resources */,
+				75C0D0802820981900CCA040 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C0D0872820981900CCA040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C0D0912820981900CCA040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C0D06F2820981700CCA040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0D0B72820A09A00CCA040 /* HomeRootView.swift in Sources */,
+				75C0D0772820981700CCA040 /* AppDelegate.swift in Sources */,
+				75C0D0C42820A3D800CCA040 /* ViewExtension.swift in Sources */,
+				75C0D0BF2820A2E000CCA040 /* AstronautDetailsView.swift in Sources */,
+				75397D712823ED2B007E021B /* URLExtension.swift in Sources */,
+				75C0D0C12820A2ED00CCA040 /* AstronautDetailsViewModel.swift in Sources */,
+				75C0D0792820981700CCA040 /* SceneDelegate.swift in Sources */,
+				75C0D0CB2821834E00CCA040 /* DataModels.swift in Sources */,
+				75C0D0BC2820A0D100CCA040 /* Endpoints.swift in Sources */,
+				75C0D0B92820A0A000CCA040 /* HomeRootViewModel.swift in Sources */,
+				75397D732824218E007E021B /* GenericRowViews.swift in Sources */,
+				75C0D0C82820B2B600CCA040 /* AstronautsProtocol.swift in Sources */,
+				75C0D0B428209E1000CCA040 /* HomeContainer.swift in Sources */,
+				75397D75282421C3007E021B /* AstronautsCardViewModel.swift in Sources */,
+				75C0D0B228209E0500CCA040 /* HomeCoordinator.swift in Sources */,
+				75C0D0CD2821839900CCA040 /* APISession.swift in Sources */,
+				75397D6D2822E622007E021B /* SwiftActivityIndicator.swift in Sources */,
+				75397D6F2823E7E2007E021B /* AstronautStatusGroup.swift in Sources */,
+				75397D6B2822D4B0007E021B /* AstronautsCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C0D0852820981900CCA040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0D08E2820981900CCA040 /* AstronautTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C0D08F2820981900CCA040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0D09A2820981900CCA040 /* AstronautUITestsLaunchTests.swift in Sources */,
+				75C0D0982820981900CCA040 /* AstronautUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C0D08B2820981900CCA040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C0D0722820981700CCA040 /* Astronaut */;
+			targetProxy = 75C0D08A2820981900CCA040 /* PBXContainerItemProxy */;
+		};
+		75C0D0952820981900CCA040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C0D0722820981700CCA040 /* Astronaut */;
+			targetProxy = 75C0D0942820981900CCA040 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75C0D0812820981900CCA040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75C0D0822820981900CCA040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75C0D09B2820981900CCA040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75C0D09C2820981900CCA040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C0D09E2820981900CCA040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW565UCY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astronaut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astronaut.app.test.glint.Astronaut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75C0D09F2820981900CCA040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW565UCY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astronaut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astronaut.app.test.glint.Astronaut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		75C0D0A12820981900CCA040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW565UCY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astronaut.app.test.glint.AstronautTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astronaut.app/Astronaut";
+			};
+			name = Debug;
+		};
+		75C0D0A22820981900CCA040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW565UCY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astronaut.app.test.glint.AstronautTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astronaut.app/Astronaut";
+			};
+			name = Release;
+		};
+		75C0D0A42820981900CCA040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW565UCY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astronaut.app.test.glint.AstronautUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astronaut;
+			};
+			name = Debug;
+		};
+		75C0D0A52820981900CCA040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW565UCY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = astronaut.app.test.glint.AstronautUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astronaut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C0D06E2820981700CCA040 /* Build configuration list for PBXProject "Astronaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0D09B2820981900CCA040 /* Debug */,
+				75C0D09C2820981900CCA040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C0D09D2820981900CCA040 /* Build configuration list for PBXNativeTarget "Astronaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0D09E2820981900CCA040 /* Debug */,
+				75C0D09F2820981900CCA040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C0D0A02820981900CCA040 /* Build configuration list for PBXNativeTarget "AstronautTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0D0A12820981900CCA040 /* Debug */,
+				75C0D0A22820981900CCA040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C0D0A32820981900CCA040 /* Build configuration list for PBXNativeTarget "AstronautUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0D0A42820981900CCA040 /* Debug */,
+				75C0D0A52820981900CCA040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75C0D06B2820981700CCA040 /* Project object */;
+}
