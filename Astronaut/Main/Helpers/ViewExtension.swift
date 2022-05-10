@@ -9,23 +9,6 @@ import SwiftUI
 
 extension View {
     
-    func onNavigation(_ action: @escaping () -> Void) -> some View {
-        let isActive = Binding(
-            get: { false },
-            set: { newValue in
-                if newValue {
-                    action()
-                }
-            }
-        )
-        return NavigationLink(
-            destination: EmptyView(),
-            isActive: isActive
-        ) {
-            self
-        }
-    }
-    
     func navigation<ViewModel, Destination: View>(
         viewModel: Binding<ViewModel?>,
         @ViewBuilder destination: (ViewModel) -> Destination
